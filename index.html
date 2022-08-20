@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('u2xgfpfutxgp');
+</script>
+<!-- End of Async Drift Code -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    
+    <link rel="shortcut icon" href="img/favicon.ico">
+     <!------------Responsive css file-------------->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <!-------------Magnific popup css file-------------->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-------------Magnific popup css file-------------->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome CDN Icons -->
+    <script src="https://kit.fontawesome.com/60fe3788a5.js" crossorigin="anonymous"></script>     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <!-------------Animate css file-------------->
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-------------Owl Carousel Js file-------------->
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <!-------------Magnific popup Js file-------------->
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+
+</head>
+<body>
+  <div class="entire-content">
+    <!-- ----Header bar---- -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container nav-container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand"><img src="img/logo.png"></a>
+            </div>
+            <!-- <div class="collapse navbar-collapse" id="navi"> -->
+              <ul class="nav">
+
+              </ul>
+        </div>
+    </nav>
+    <!-- End header bar -->
+
+    <!-- Slider section -->
+    <section class="slider text-center" id="slider">
+        <div class="slider-overlay">
+            <div class="slider-content">
+                <div class="rounded circle">
+                  <img src="img/zia.jpg" class="rounded-circle mx-auto d-block img-thumbnail" width="200" height="200" alt="Obi Isaiah">
+                </div>
+                <div class="text"></div>
+                <br>
+
+                <div class="icons">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <i class="fab fa-css3 fa-3x"></i>
+                    <i class="fab fa-js-square fa-3x"></i>
+                    <i class="fab fa-react fa-3x"></i>
+                    <i class="fab fa-python fa-3x"></i>
+                    <i class="fab fa-php fa-3x"></i>
+                    <i class="fab fa-wordpress-simple fa-3x"></i>
+                </div>
+                <br />
+                <div class="cta-div">
+                    <a href="#contact_area" class="btn1 smooth-scroll">CONTACT ME!</a>
+                </div>
+                <br><br>
+                <div class="social-networks">
+                    <a href="https://www.facebook.com/isaiahobitochukwu" class="fab fa-facebook fa-2x" target="_blank"></a>
+                    <a href="https://twitter.com/IsaiahObi" class="fab fa-twitter fa-2x" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/isaiah-obi-09878276/" class="fab fa-linkedin fa-2x" target="_blank"></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <br>
+    <section class="service-area" id="services">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12">
+                      <div class="section-title text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".2s">
+                          <h2><b>PYTHON PROJECTS</b></h2>
+                          <hr />
+                      </div>
+                  </div>
+              </div><br>
+              <div class="row wow bounceInUp"  data-wow-duration="0.4s" data-wow-delay="0.4s">
+
+               
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                       <a href="https://github.com/zialink/Python-Projects/tree/master/face_detector" class="projects" target="_blank">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                          </div>
+                          <h3>Face Detector</h3>
+                          <p>
+                            A simple application for detecting faces in an image. Created with a CV2 which is a python library.
+                          </p>
+                      </div>
+                      </a>
+                  </div>
+                
+
+                
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <a href="https://github.com/zialink/Python-Projects/tree/master/Desktop_Application" class="projects" target="_blank">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                          </div>
+                          <h3>Bookstore Desktop</h3>
+                          <p>
+                            A bookstore desktop application writing in python
+                          </p>
+                      </div>
+                       </a>
+                  </div>
+               
+                
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <a href="https://github.com/zialink/Python-Projects/tree/master/Web%20Scrapping" class="projects" target="_blank">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                          </div>
+                          <h3>Web Scraping</h3>
+                          <p>
+                            A web scrapping application using beautiful soup and pandas
+                          </p>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <a href="https://github.com/zialink/Python-Projects/tree/master/mapping" class="projects" target="_blank">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                          </div>
+                          <h3>Mapping</h3>
+                          <p>
+	                           A pandas and folium mapping application that shows the volcanoes in USA
+                           </p>
+                      </div>
+                      </a>
+                  </div>
+                
+
+                
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <a href="https://github.com/zialink/Python-Projects/tree/master/motion_detector" class="projects" target="_blank">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                          </div>
+                          <h3>Motion Detector</h3>
+                          <p>
+                            A motion detector application
+                          </p>
+                      </div>
+                      </a>
+                  </div>
+                
+                <br>
+              </div>
+
+          </div>
+
+      </section>
+    <!-- -----REACT PROJECTS------->
+    
+        <br>
+    <section class="service-area" id="services">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12">
+                      <div class="section-title text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".2s">
+                          <h2><b>REACTJS PROJECTS</b></h2>
+                          <hr />
+                      </div>
+                  </div>
+              </div><br><br>
+              <div class="row wow bounceInUp"  data-wow-duration="0.4s" data-wow-delay="0.4s">
+
+                <a href="https://zialink.netlify.app/" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>ZiaLink</h3>
+                          <p>
+                            A light weight social media application created with MongoDB, ExpressJS, ReactJS, NodeJS and GraphQL(MERNG) stack.
+                          </p>
+                      </div>
+                  </div>
+                </a>
+                
+                <a href="https://github.com/zialink/Web-Bulletin" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>Web Bulletin</h3>
+                          <p>
+                            A CRUD bulletin web application designed with HTML5, CSS, Reactjs.
+                          </p>
+                      </div>
+                  </div>
+                </a>
+
+                <a href="https://github.com/zialink/Lead-Manager" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-python fa-lg"></i>
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>Lead Manager</h3>
+                          <p>
+                            A CRUD lead manager application built with django rest API at the backend with reactjs and redux at the frontend.
+                          </p>
+                      </div>
+                  </div>
+                </a>
+
+                <a href="https://zia-vacationexperience.netlify.app/" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>Vacation Experience</h3>
+                          <p>
+                            A simple social media application built with MongoDB, ExpressJS, ReactJS, and NodeJS(MERN) stack.
+                          </p>
+                      </div>
+                  </div>
+                </a>
+
+                <a href="https://github.com/zialink/FocusTime" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>Focus Time</h3>
+                          <p>
+                            A simple timer mobile application that helps users focus on a task built with React Native
+                          </p>
+                      </div>
+                  </div>
+                </a>
+                <a href="https://github.com/zialink/ZiaMeals" class="projects" target="_blank">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="service-wrap text-center">
+                          <div class="service-icon">
+                            <i class="fab fa-html5 fa-lg"></i>
+                            <i class="fab fa-css3 fa-lg"></i>
+                            <i class="fab fa-js-square fa-lg"></i>
+                            <i class="fab fa-react fa-lg"></i>
+                          </div>
+                          <h3>Zia Meals</h3>
+                          <p>
+                            A restaurant suggestion mobile application built with React Native and Firebase
+                          </p>
+                      </div>
+                  </div>
+                </a>
+
+                <br>
+              </div>
+
+          </div>
+
+      </section>
+   <!------Services Markups end-------- >
+
+   <!-- Contact Area Markup -->
+   <section class="contact-area" id="contact_area">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="section-heading wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".2s">
+                    <h2 class="section-title"><b>CONTACT ME</b></h2>
+                    <hr />
+                    <div class="border-bottom-now"></div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="contact-infos">
+                  <div class="col-md-4 text-center">
+                      <div class="contact-item wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s">
+                          <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
+                          <p class="contact-detail">
+                            No. 20, Obaladejobi Street, Ikeja<br>
+                               Lagos, Nigeria
+                          </p>
+                      </div>
+                  </div>
+
+                       <div class="col-md-4 text-center">
+                      <div class="contact-item wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
+                          <span class="contact-icon"><i class="fa fa-envelope"></i></span>
+                          <p class="contact-detail">
+                              zedlinkus@gmail.com <br>
+                              support@isaiahobi.com
+                          </p>
+                      </div>
+                  </div>
+
+
+                     <div class="col-md-4 text-center">
+                      <div class="contact-item wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s">
+                          <span class="contact-icon"><i class="fa fa-phone"></i></span>
+                          <p class="contact-detail">
+                              +234-806-571-4995
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section>
+
+ <!-------------Footer markups--------------->
+
+  <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 text-center">
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/isaiahobitochukwu" target="_blank"><i class="fab fa-facebook wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s" ></i></a>
+                    <a href="https://twitter.com/IsaiahObi" target="_blank"><i class="fab fa-twitter wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s"></i></a>
+                    <a href="https://www.linkedin.com/in/isaiah-obi-09878276/" target="_blank"><i class="fab fa-linkedin wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s" ></i></a>
+                  </div> <br>
+                  <div class="copyright">
+                      <p class="footerlogo">
+                          &copy; 2019 <span>OBI ISAIAH</span>
+                      </p>
+                      <div class="bordernow"></div>
+                  </div>
+
+
+               </div>
+
+
+
+          </div>
+      </div>
+
+  </footer>
+
+
+
+
+    <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
+    <script src="js/typed.min.js" type="text/javascript"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/smoothscroll.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>
